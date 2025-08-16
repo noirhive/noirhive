@@ -37,11 +37,9 @@ module.exports = {
 
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
-   footer: 'Made with ❤ by NoirHive.<br><br>
-<small>
-All Content is Indexed from Various Sites around the globe, proxied using Cloudflare Technology and "NoirHive" doesn’t rip/pirate anything. Copyright owners/Representatives contact us if you think any of the "NoirHive" files violate intellectual property rights.<br>
-This is just an Index, much like how Google and Search Engine Works.
-</small>',
+  footer: 'Made with ❤ by NoirHive.<br><br>
+All Content is Indexed from Various Sites around the globe, proxied using Vercel Technology and "NoirHive" doesn’t rip/pirate anything. Copyright owners/Representatives contact us if you think any of the "NoirHive" files violate intellectual property rights.<br>
+This is just an Index, much like how Google and Search Engine Works.',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.

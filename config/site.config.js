@@ -37,8 +37,11 @@ module.exports = {
 
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
-    footer: 
-      'Powered by <a href="#" target="_blank" rel="noopener noreferrer">NoirHive</a>. Made with ❤ by NoirHive.',
+   footer: 'Made with ❤ by NoirHive.<br><br>
+<small>
+All Content is Indexed from Various Sites around the globe, proxied using Cloudflare Technology and "NoirHive" doesn’t rip/pirate anything. Copyright owners/Representatives contact us if you think any of the "NoirHive" files violate intellectual property rights.<br>
+This is just an Index, much like how Google and Search Engine Works.
+</small>',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
@@ -52,13 +55,17 @@ module.exports = {
   // you provide. See the documentation for details.
   links: [
     {
-      name: 'GitHub',
-      link: 'https://github.com/cjchn/onedrive-vercel-index',
-    },
+    name: 'GitHub',
+    link: 'https://github.com/noirhive/noirhive',
+  },
+  {
+    name: 'Telegram',
+    link: 'https://t.me/mrchlorine96',
+  },
   ],
 
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
   // https://day.js.org/docs/en/display/format for detailed specification. The default value is ISO 8601 full datetime
   // without timezone and replacing T with space.
-  datetimeFormat: 'YYYY-MM-DD HH:mm:ss',
+  datetimeFormat: 'DD-MM-YYYY HH:mm:ss',
 }

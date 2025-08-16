@@ -20,7 +20,7 @@ module.exports = {
   title: "NoirHive",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
-  baseDirectory: '/',
+  baseDirectory: '/NoirHive',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
@@ -41,7 +41,7 @@ module.exports = {
  footer:
   'Powered by <a href="#" target="_blank" rel="noopener noreferrer">NoirHive</a>. Made with ❤ by NoirHive.<br><br>
    All Content is Indexed from Various Sites around the globe, proxied using Vercel Technology and "NoirHive" doesn’t rip/pirate anything. Copyright owners/Representatives contact us if you think any of the "NoirHive" files violate intellectual property rights.<br>
-   This is just an Index, much like how Google and Search Engine Works.'
+   This is just an Index, much like how Google and Search Engine Works.',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
